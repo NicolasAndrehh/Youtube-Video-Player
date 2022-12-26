@@ -1,10 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #header{
     background-color: black;
-    padding: 2.21vh;
 }
 #section{
     width: 60vw;
@@ -38,4 +38,51 @@ iframe{
 .thumbnail, .thumbnail img{
     width: 9rem;
     height: 6rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+#header-container{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    gap: 15vw;
+}
+#start{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#start button{
+    background: none;
+    cursor: pointer;
+}
+#searchBar{
+    display: flex;
+}
+#searchBar input{
+    width: 35vw;
+    height: 2.4rem;
+    background: none;
+    border: 1.7px solid rgb(46, 46, 46);
+    border-radius: 1rem 0rem 0rem 1rem;
+    -webkit-border-radius: 1rem 0rem 0rem 1rem;
+    -moz-border-radius: 1rem 0rem 0rem 1rem;
+    -ms-border-radius: 1rem 0rem 0rem 1rem;
+    -o-border-radius: 1rem 0rem 0rem 1rem;
+    font-size: 1.2rem;
+
+}
+#searchBar button{
+    width: 3.5rem;
+    background: rgb(39, 39, 39);
+    border: 1.7px solid rgb(46, 46, 46);
+    border-left: 0;
+    border-radius: 0rem 1rem 1rem 0rem;
+    -webkit-border-radius: 0rem 1rem 1rem 0rem;
+    -moz-border-radius: 0rem 1rem 1rem 0rem;
+    -ms-border-radius: 0rem 1rem 1rem 0rem;
+    -o-border-radius: 0rem 1rem 1rem 0rem;
+    cursor: pointer;
 }
