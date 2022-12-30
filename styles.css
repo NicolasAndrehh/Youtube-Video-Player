@@ -49,6 +49,7 @@ iframe{
     height: 5rem;
     align-items: center;
     gap: 15vw;
+    justify-content: space-around;
 }
 #start{
     display: grid;
@@ -85,4 +86,21 @@ iframe{
     -ms-border-radius: 0rem 1rem 1rem 0rem;
     -o-border-radius: 0rem 1rem 1rem 0rem;
     cursor: pointer;
+}
+#end{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+#notifications{
+    background: none;
+    cursor: pointer;
+}
+#profile_picture img{
+    width: 2.5rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
